@@ -12,8 +12,8 @@ public class StreamPractice {
         System.out.println("aが含まれる駅名");
         stations.stream().filter(station -> station.contains("a")).forEach(System.out::println);
 
-        System.out.println("大文字に並び替え");
-        stations.stream().map(String::toUpperCase).forEach(System.out::println);
+//        System.out.println("大文字に並び替え");
+//        stations.stream().map(String::toUpperCase).forEach(System.out::println);
 
     }
 
